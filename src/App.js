@@ -16,6 +16,7 @@ function App() {
       {toggle && <Cart setToggle={setToggle} /> }
       <div className="App">
         <Navbar setToggle={setToggle} />
+        <h1>Ecomerce website made by Sfectoria</h1>
         <div className="d-flex flex-wrap gap-5 justify-content-center mt-5">
           {dummy.map((elem, i) => (
             <Card key={i} product={elem} />
